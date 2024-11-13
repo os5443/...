@@ -15,6 +15,4 @@ if table.find(SupportedGames.A_Universal_Time,game.PlaceId) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/os5443/king/refs/heads/main/AUT"))();
 elseif table.find(SupportedGames.Heaven_Stand,game.PlaceId) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/os5443/king/refs/heads/main/HS"))();
-elseif table.find(SupportedGames.Sakura_Stand,game.PlaceId) then
-    -- loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/NEW/main/SS"))();
 end
